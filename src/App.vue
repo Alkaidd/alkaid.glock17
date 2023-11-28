@@ -3,8 +3,13 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <RouterView />
+  <a-config-provider
+    :theme="{
+      colorPrimary: '#008dff'
+    }"
+  >
+    <RouterView />
+  </a-config-provider>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
